@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/landscapeMulti"
+    tools:context=".MultiPlayer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <fragment
+            android:id="@+id/menuMultiFrag"
+            android:name="no.woact.haben16.tictactoe.MenuFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            tools:layout="@layout/fragment_menu" />
+
+        <fragment
+            android:id="@+id/boardMultiFrag"
+            android:name="no.woact.haben16.tictactoe.Board"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:layout_marginTop="8dp"
+            tools:layout="@layout/fragment_board" />
+    </LinearLayout>
+
+</LinearLayout>

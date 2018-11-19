@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tic tac toe</string>
+    <string name="singlePlayer">Single player</string>
+    <string name="multiPlayer">Multi player</string>
+    <string name="leaderBoard">Leaderboard</string>
+    <string name="goBack">Go back</string>
+    <string name="playAgain">Play again</string>
+    <string name="exitGame">Exit</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="delete">Delete</string>
+    <string name="loginHeader">Register and login</string>
+    <string name="registerHere">Not registered? Click here to register.</string>
+    <string name="logout">Logout</string>
+
+</resources>
